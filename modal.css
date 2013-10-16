@@ -1,0 +1,51 @@
+    /* overlay popup */
+    #overlay {
+        background: rgba(00, 00, 00, 0.8);
+        -pie-background:  rgba(00, 00, 00, 0.8);
+        behavior: url(PIE.htc);
+        color:#828282;
+        height:100%;
+        margin:0;
+        overflow:auto;
+        padding:0;
+        position:fixed;
+        width:100%;
+        z-index:5000;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    #overlay .mainC { 
+        background-color:#fff;  
+        margin: 60px auto; 
+        padding: 8px 10px; 
+        width:605px;
+        height: 400px;
+        position: relative; 
+    }
+
+    .closeLink{
+        width: 32px;
+        text-align: right;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+
+    .closeBtn{
+        border: none;
+        background: url('images/close-btn.png'); 
+        width: 31px; 
+        height: 31px;
+        text-indent: -9999px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+
+    .overlay-container{
+        margin: 20px;
+        height: 360px;
+        overflow: hidden;
+        overflow-y: visible;
+    }
